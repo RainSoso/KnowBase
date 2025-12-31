@@ -1,41 +1,3 @@
-<script setup lang="ts">
-import { ElCard, ElButton } from 'element-plus'
-
-const tableData = [
-  {
-    name: 'page',
-    type: 'integer',
-    isRequired: true,
-    default: 1,
-    description: '页码，从1开始',
-    example: 1
-  },
-  {
-    name: 'pageSize',
-    type: 'integer',
-    isRequired: true,
-    default: 10,
-    description: '每页显示条数',
-    example: 10
-  },
-  {
-    name: 'sort',
-    type: 'string',
-    isRequired: false,
-    default: '',
-    description: '排序',
-    example: 'name'
-  },
-  {
-    name: 'sortOrder',
-    type: 'string',
-    isRequired: false,
-    default: '',
-    description: '排序',
-    example: 'asc'
-  },
-]
-</script>
 
 # 接口文档规范
 
@@ -60,7 +22,7 @@ const tableData = [
 
 #### 接口文档完整示例：
 
-![Pasted image 20251230102720.png](../../images/20251230102720.png)
+![Pasted image 20251230102720.png](../../public/20251230102720.png)
 
 ### 1.2 文档版本（可选）
 

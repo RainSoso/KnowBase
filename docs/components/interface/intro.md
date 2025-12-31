@@ -31,7 +31,7 @@
 
 
 **正确示例：**
-![Pasted image 20251229160213.png](../../images/20251229160213.png)
+![Pasted image 20251229160213.png](../../public/20251229160213.png)
 
 **错误示例：**
-![Pasted image 20251229155942.png](../../images/20251229155942.png)
+![Pasted image 20251229155942.png](../../public/20251229155942.png)
