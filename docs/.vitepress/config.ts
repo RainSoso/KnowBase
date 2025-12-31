@@ -2,27 +2,34 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Knowledge Base",
-  description: "A VitePress Site",
+  title: "Sosse's Knowledge Base",
+  description: "A knowledge base for frontend development",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '开发规范', link: '/' },
+      { text: '接口文档规范', link: '/components/interface/base' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '前端开发规范',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'HTML规范', link: '/markdown-examples' },
+          { text: 'CSS规范', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '接口文档规范',
+        items: [
+          { text: '概述', link: '/components/interface/intro' },
+          { text: '文档规范', link: '/components/interface/base' },
         ]
       }
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    outline: [2, 3], // 只显示 h2 和 h3 标题
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   }
 })
