@@ -11,7 +11,10 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 接口文档规范
-      link: /components/interface/base
+      link: /components/interface/intro
+    - theme: alt
+      text: Q&A前端答疑
+      link: /components/Q&A/communication
 
 features:
   - title: HTML规范

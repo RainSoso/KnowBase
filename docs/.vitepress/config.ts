@@ -25,6 +25,12 @@ export default defineConfig({
           { text: '概述', link: '/components/interface/intro' },
           { text: '文档规范', link: '/components/interface/base' },
         ]
+      },
+      {
+        text: 'Q&A前端答疑',
+        items: [
+          { text: 'Vue3的13种传参通信方式', link: '/components/Q&A/communication' },
+        ]
       }
     ],
     outline: [2, 3], // 只显示 h2 和 h3 标题
